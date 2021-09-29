@@ -12,6 +12,7 @@ func main() {
 	fmt.Println(viper.Get("cloud.appname"))
 	fmt.Println(viper.Get("cloud.port"))
 	fmt.Println(viper.Get("cloud.databasename"))
+	fmt.Println(viper.Get("cloud.testingprofile"))
 	fmt.Println(viper.AllKeys())
 
 	go_config.EnvironmentVariable()
