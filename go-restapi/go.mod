@@ -1,4 +1,4 @@
-module www.github.com/alfanherya/library
+module www.github.com/alfanherya/library/go-restapi
 
 go 1.19
 
